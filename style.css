@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #f4f8fb;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.zLogin-layout{
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 24px 10px 0;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.header img{
+    max-width: 114px;
+    height: 41px;
+    margin: 0 auto 18px;
+}
+
+.header h2{
+    font-size: 1.1rem;
+    line-height: 30px;
+    font-weight: 500;
+    color: #333;
+}
+
+.animated-ma{
+    max-width: 400px;
+    height: 380px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background: rgb(252, 252, 252);
+    box-shadow: 0 1px 6px #d8d2d2;
+    position: relative;
+}
+
+.content1{
+    max-width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E5E5;
+    position: relative;
+    
+}
+
+.content1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 50%;
+    width: 1px;
+    height: 70%;
+    background: #E5E5E5;
+}
+.content{
+    width: 100%;
+    height: 349px;
+    text-align: center;
+}
+
+.content img{
+    width: 224px;
+    height: 224px;
+    padding: 28px;
+}
+.clas{
+    display: none;
+}
+.content p{
+    font-size: 14px;
+    color: #A0A0A0;
+    display: none;
+}
+.animated-ma__link{
+    color: #353535;
+    list-style: none;
+    font-size: 0.875em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.qr{
+    color: #696262;
+    font-size: 0.875em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.animated-ma--1{
+    width: 50%;
+}
+.animated-ma--2{
+    width: 50%;
+}
+
+.login{
+    padding: 0 10px;
+   
+}
+.login .phone{
+    margin-top: 20px;
+}
+.login input{
+    width: 70%;
+    height: 30px;
+    border: unset;
+    border-bottom: 1px solid #ECEDF0;
+    background: unset;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    font-size: 14.5px;
+    outline: none;
+    /*   outline: none; làm cho viền ở thẻ input mất đi*/
+}
+
+.login i{
+    position: relative;
+    left: 24px;
+}
+button{
+    width: 78.5%;
+    height: 40px;
+    background: rgb(128,200,249);
+    border-radius: 4px;
+    color: white;
+    border: unset;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    font-size: 0.865rem;
+}
+.quan{
+    position: relative;
+    top: 20px;
+    color: rgb(128,200,249);
+    font-size: 0.9rem;
+}
+.anh{
+    max-width:400px;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 1.8rem;
+}
+.item--facebook{
+    color: #0E8EF2;
+}
+.item--instagram{
+    color: #d051e0;
+}
+.item--google{
+    color: #5add32;
+}
+@media (max-width:280px) {
+    .animated-ma__link{
+        font-size: 12px;
+    }
+}
+
+/* test */
